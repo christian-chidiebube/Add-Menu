@@ -1,0 +1,89 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,#8052ec,#d161ff);
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 2px solid white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+#newtask{
+    background-color: #ffffffff;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newtask input{
+    width: 70%;
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    font-family: 'popins', sans-serif;
+    padding: 12px;
+    color: #11111111;
+    font-weight: 500;
+    position: relative;
+}
+#newtask input:focus{
+    outline: none;
+    color: grey;
+    border-color:  #b7a9d8;
+}
+#newtask button{
+    float: right;
+    background-color: #8052ec;
+    width: 60px;
+    font-family: 'popins', sans-serif;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    width: 100%;
+    margin-top: 60px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    position: relative;
+
+}
+.task{
+    height: 50x;
+    padding: 15px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+}
+.delect img{
+    width: 15px;
+    cursor: pointer;
+
+}
+.completed{
+    text-decoration: line-through;
+    
+}
